@@ -6,16 +6,21 @@ import { Link } from "react-router-dom";
 const Navbar = ({ icon, title }) => {
   return (
     <nav className='bg-primary'>
-      <div className="all-center"><h1>
-        <i className={icon} >{title}</i>
-      </h1>
+      <div className='all-center' style={{ fontSize: "25px" }}>
+        <h1>
+          <i className={icon}>{title}</i>
+        </h1>
       </div>
       <ul>
         <li>
-          <Link to='/' style={{color: "white", fontSize: "20px"}}>Home</Link>
+          <Link to='/' style={{ color: "white", fontSize: "20px" }}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to='/about' style={{color: "white", fontSize: "20px"}}>About</Link>
+          <Link to='/about' style={{ color: "white", fontSize: "20px" }}>
+            About
+          </Link>
         </li>
       </ul>
     </nav>
