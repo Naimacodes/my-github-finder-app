@@ -33,8 +33,15 @@ a:hover {
 }
 
 ul {
+  display: flex;
   list-style: none;
+  justify-content: space-evenly;
+  align-self: flex-start;
+
+  
 }
+
+
 
 img {
   width: 100%;
