@@ -1,6 +1,7 @@
 # My Github Finder app
 
 ![image](/src/preview/github-finder.PNG)
+![image](/src/preview/github-finder-profile.PNG)
 
 
 ## Used technologies
