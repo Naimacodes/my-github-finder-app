@@ -1,13 +1,12 @@
-#My Github Finder app
+# My Github Finder app
 
-![alt text][logo]
-
-[logo]: https://imgur.com/lsnD02h "Logo Title Text 2"
+![image](src\preview\github finder.PNG)
 
 
-##Used technologies
+## Used technologies
 React JS
 CSS
 
-##Description
+## Description
 Find any profile on Github and get basic information about every user. 
+
